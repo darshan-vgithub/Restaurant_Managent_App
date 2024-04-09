@@ -1,0 +1,138 @@
+{
+  "user": [
+    {
+      "name": "Darshan",
+      "email": "darshan@gmail.com",
+      "password": "xyz",
+      "id": 1
+    },
+    {
+      "name": "Anil",
+      "email": "anil@gmail.com",
+      "password": "abc",
+      "id": 2
+    },
+    {
+      "name": "Uday",
+      "email": "uday@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "Sumanth",
+      "email": "sumanth@gmail.com",
+      "password": "xyz@123",
+      "id": 4
+    },
+    {
+      "id": "eb84",
+      "name": "lala",
+      "email": "lala@gmail.com",
+      "password": "lala"
+    },
+    {
+      "id": "8903",
+      "name": "uma",
+      "email": "uma@gmail.com",
+      "password": "uma"
+    },
+    {
+      "id": "8805",
+      "name": "Tony",
+      "email": "tony@gmail.com",
+      "password": "tony"
+    },
+    {
+      "id": "9cb8",
+      "name": "Bruce",
+      "email": "bruce@gmail.com",
+      "password": "bruce"
+    },
+    {
+      "id": "44ec",
+      "name": "Bruce",
+      "email": "bruce@gmail.com",
+      "password": "bruce"
+    },
+    {
+      "id": "7e81",
+      "name": "Sam",
+      "email": "sma@test.com",
+      "password": "sam@123"
+    },
+    {
+      "id": "6be7",
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "xyz@123"
+    },
+    {
+      "id": "4bf3",
+      "name": "genda",
+      "email": "genda@gmail.com",
+      "password": "genda"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "contact": 11111,
+      "address": "Rajajinagar"
+    },
+    {
+      "id": 2,
+      "name": "Dominos",
+      "contact": 22222,
+      "address": "Banglore"
+    },
+    {
+      "id": 3,
+      "name": "KFC",
+      "contact": 33333,
+      "address": "Mallshwaram"
+    },
+    {
+      "id": "abd4",
+      "name": "RCB",
+      "contact": 444444,
+      "address": "UB city"
+    },
+    {
+      "id": "edaf",
+      "name": "Baskin Robins",
+      "address": "Malleshwaram",
+      "contact": "55555555"
+    },
+    {
+      "id": "0ea6",
+      "name": "larawel",
+      "address": "Indranagar",
+      "contact": "6666666"
+    },
+    {
+      "id": "6de6",
+      "name": "StarBucks",
+      "address": "Malleshwaram",
+      "contact": "77777777"
+    },
+    {
+      "id": "2bb1",
+      "name": "vidyarthi bhavan",
+      "address": "baswangudi",
+      "contact": "8888888888"
+    },
+    {
+      "id": "86d8",
+      "name": "gurgoan coffe shop",
+      "address": "gurgoan",
+      "contact": "999999999"
+    },
+    {
+      "id": "f999",
+      "name": "lala",
+      "address": "lala",
+      "contact": "1234"
+    }
+  ]
+}
