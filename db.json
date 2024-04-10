@@ -75,64 +75,16 @@
   ],
   "restaurant": [
     {
-      "id": "1",
-      "name": "Burger King",
-      "contact": 11111,
-      "address": "Rajajinagar"
-    },
-    {
-      "id": "2",
-      "name": "Dominos",
-      "contact": 22222,
-      "address": "Banglore"
-    },
-    {
-      "name": "KFC",
-      "address": "Mattikere",
-      "contact": 33333,
-      "id": "3"
-    },
-    {
-      "id": "abd4",
-      "name": "RCB",
-      "contact": 444444,
-      "address": "UB city"
-    },
-    {
-      "id": "edaf",
+      "id": "76d3",
       "name": "Baskin Robins",
       "address": "Malleshwaram",
-      "contact": "55555555"
+      "contact": "1111111"
     },
     {
-      "id": "0ea6",
-      "name": "larawel",
+      "id": "0bce",
+      "name": "western",
       "address": "Indranagar",
-      "contact": "6666666"
-    },
-    {
-      "id": "6de6",
-      "name": "StarBucks",
-      "address": "Malleshwaram",
-      "contact": "77777777"
-    },
-    {
-      "name": "vidyarthi bhavan",
-      "address": "baswangudi bugal rock",
-      "contact": "8888888888",
-      "id": "2bb1"
-    },
-    {
-      "id": "86d8",
-      "name": "gurgoan coffe shop",
-      "address": "gurgoan",
-      "contact": "999999999"
-    },
-    {
-      "id": "f999",
-      "name": "lala",
-      "address": "lala",
-      "contact": "1234"
+      "contact": "2222222"
     }
   ]
 }

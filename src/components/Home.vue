@@ -14,7 +14,11 @@
       <td>{{ item.name }}</td>
       <td>{{ item.contact }}</td>
       <td>{{ item.address }}</td>
-      <td><router-link :to="'/update/'+item.id">update</router-link></td>
+      <td>
+        <router-link :to="'/update/' + item.id">update</router-link>
+
+        <button v-on:click="deleteRestaurant(item.id)">Delete</button>
+      </td>
     </tr>
   </table>
 </template>
@@ -23,6 +27,7 @@
 import axios from "axios";
 import Header from "./Header.vue";
 export default {
+  name: "Home-Component",
   data() {
     return {
       name: "",
@@ -32,16 +37,35 @@ export default {
   components: {
     Header,
   },
-  name: "Home-Component",
+  methods: {
+    async deleteRestaurant(id) {
+      try {
+        let result = await axios.delete(
+          `http://localhost:4040/restaurant/${id}`
+        );
+        console.warn(result);
+        if (result.status === 200) {
+          this.loadData();
+        }
+      } catch (error) {
+        console.error("Error deleting restaurant:", error);
+      }
+    },
+
+    async loadData() {
+      let user = localStorage.getItem("user-info");
+      this.name = JSON.parse(user).name;
+      if (!user) {
+        this.$router.push({ name: "SignUp" });
+      }
+      let result = await axios.get("http://localhost:4040/restaurant");
+      console.warn(result);
+      this.restaurants = result.data;
+    },
+  },
+
   async mounted() {
-    let user = localStorage.getItem("user-info");
-    this.name = JSON.parse(user).name;
-    if (!user) {
-      this.$router.push({ name: "SignUp" });
-    }
-    let result = await axios.get("http://localhost:4040/restaurant");
-    console.warn(result);
-    this.restaurants = result.data;
+    this.loadData();
   },
 };
 </script>
